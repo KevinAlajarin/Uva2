@@ -1,0 +1,129 @@
+.header {
+    overflow: hidden;
+    background-color: #4CAF50;
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  .header a {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 3rem;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+
+  header h1 {
+    color: black;
+    font-size: 5rem;
+   }
+
+  .header-right {
+    float: right;
+  }
+  
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #333;
+   }
+
+   nav {
+    background-color: #333;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+   }
+
+   nav a {
+    color: white;
+    text-decoration: none;
+   }
+
+   section {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    font-size: 1.5rem;
+   }
+
+   section h2 {
+    color: #4CAF50;
+    margin-bottom: 1rem;
+    background-color: #333;
+   }
+
+   section button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+   }
+
+   #contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-left {
+    margin-right: 90px;
+    font-size: 1.5rem;
+    width: 30%;
+}
+
+.contact-right {
+    font-size: 1.5rem;    
+    margin-right: 0px;
+}
+
+h3 {
+    margin-left: 100px;
+}
+
+h4 {
+    margin-left: 300px;
+}
+
+.contact-img {
+    width: 49%;
+    height: auto;
+    margin-bottom: 0;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+
+footer {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+    margin-top: 1rem;
+}
